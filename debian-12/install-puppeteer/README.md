@@ -1,6 +1,6 @@
 # Install Puppeteer on Debian 12 (bookworm)
 
-1. Update the server
+1. Update the server:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
