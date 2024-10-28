@@ -1,25 +1,30 @@
-# Install PHP 5.6 on Debian 12 (bookworm)
+# Install PHP 5.6 on Debian 12 (Bookworm)
 
-1. Update the server:
+### 1. Update the Server
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-2. Add packages.sury.org repository for Debian:
+### 2. Add the `packages.sury.org` Repository for Debian
 
 ```bash
 curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
 ```
 
-3. Install PHP 5.6:
+### 3. Install PHP 5.6
+
 ```bash
 sudo apt install php5.6-cli
 ```
-4. Check PHP version installed:
+
+### 4. Check the Installed PHP Version
+
 ```bash
 php -v
 ```
+
+Example output:
 
 ```
 PHP 5.6.40-78+0~20240802.86+debian12~1.gbp864daf (cli) 
