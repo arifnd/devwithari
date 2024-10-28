@@ -92,3 +92,8 @@ Test the connection to verify everything is working:
 ```bash
 psql -d mytestdb -U postgres
 ```
+
+### References
+
+- [Installing PostgreSQL on Debian 12 for Beginners](https://reintech.io/blog/installing-postgresql-on-debian-12-for-beginners)
+- [Getting error: Peer authentication failed for user "postgres"...](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
