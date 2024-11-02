@@ -6,19 +6,25 @@
 sudo apt update && sudo apt upgrade -y
 ```
 
-### 2. Add the `packages.sury.org` Repository for Debian
+### 2. Install depedencies
+
+```bash
+sudo apt install -y apt-transport-https lsb-release ca-certificates curl
+```
+
+### 3. Add the `packages.sury.org` Repository for Debian
 
 ```bash
 curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
 ```
 
-### 3. Install PHP 5.6
+### 4. Install PHP 5.6
 
 ```bash
 sudo apt install php5.6-cli
 ```
 
-### 4. Check the Installed PHP Version
+### 5. Check the Installed PHP Version
 
 ```bash
 php -v
